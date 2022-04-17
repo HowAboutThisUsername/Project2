@@ -16,18 +16,6 @@ body{
 	font-family: Verdana, Geneva, sans-serif;
 }
 
-body {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 2fr 4fr 4fr 4fr 1fr;
-	grid-template-areas: "Title Title"
-						 "church about"
-						 "pastors pastorimg"
-						 "ambitionimg ambitions"
-						 "footer footer";
-	grid-column-gap: 15px;
-	grid-row-gap:10px;
-}
 
 body> header {
 	grid-row: 1;
@@ -51,8 +39,8 @@ body > section {
 	background-color: #503030;
 }
 body > footer {
-	grid-area: footer;
 	background-color: #503030;
+	padding: 20px ;
 }
 
 ul {

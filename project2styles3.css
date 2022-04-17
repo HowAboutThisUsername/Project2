@@ -25,8 +25,8 @@ body {
 						 "pastors pastorimg"
 						 "ambitionimg ambitions"
 						 "footer footer";
-	grid-column-gap: 15px;
-	grid-row-gap:10px;
+	grid-column-gap: 5px;
+	grid-row-gap:0px;
 }
 
 body> header {
@@ -35,24 +35,31 @@ body> header {
 }
 
 body > header {grid-area: Title;}
-.one{grid-area: church;}
+.one{
+	grid-area: church;
+	background-color: #503030;
+}
 body > article {
 	grid-area: about;
-	background-color: #503030;
 }
 body > aside {
 	grid-area: pastors;
 	background-color: #503030;
 }
-.two {grid-area:pastorimg;}
-.three {grid-area: ambitionimg;}
+.two {
+	grid-area:pastorimg;
+}
+.three {
+	grid-area: ambitionimg;
+	background-color:#503030;
+}
 body > section {
 	grid-area: ambitions;
-	background-color: #503030;
 }
 body > footer {
 	grid-area: footer;
 	background-color: #503030;
+	padding: 20px;
 }
 
 ul {
